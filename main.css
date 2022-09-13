@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src:url("Norse-Bold.otf") format("opentype")}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.container_1{
+    background-image: url(images/flower.jpg);
+    height: 100vh;
+    width: 530px;
+    background-size: cover;
+}
+
+.container_1 img{
+    width: 80px;
+    height: 140px;
+}
+
+.container_1 div{
+    display: flex;
+    font-size: large;
+    background-color: rgba(11, 71, 11,0.3);
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: Norse-Bold;
+    font-size: 100px;
+    letter-spacing: 3px;
+    max-height: 150px;
+}
+.container_2{
+    background-color: rgb(252, 249, 246);
+    
+}
+
+.container_2 h2{
+    padding: 70px 50px 0px 50px;
+}
+
+.form_fill{
+    background-color: #fff;
+    padding: 10px 0 20px 40px;
+    max-height: 320px;
+    box-shadow: 0px 3px 2px 0px rgb(216, 213, 213);
+}
+
+form .fill{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-size: xx-small;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #E5E7EB;
+    caret-color: #00f;
+}
+
+form input:hover{
+    border: 1px solid #00f;
+}
+
+
+.container_2 .create{
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-top: 500px;
+    color: #fff;
+    background-color: rgb(6, 61, 40);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.container_2 .create:hover{
+    background-color: rgb(12, 150, 97);
+}
+
+.login{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.login_button{
+    text-decoration: none;
+    color: rgb(6, 61, 40);
+    font-weight: 600;
+}
+
+.login_button:hover{
+    color: rgb(12, 150, 97);
+}
